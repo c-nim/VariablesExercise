@@ -29,7 +29,8 @@ public class Variables {
         System.out.println("what is your age?");
         int age = scanner.nextInt();
         System.out.println("what is your height in cm?");
-        double height = scanner.nextInt();
-        System.out.println(age + height);
+        int height = scanner.nextInt();
+        int sum = age + height;
+        System.out.println("your age and height added are " + sum);
     }
 }
